@@ -1,1 +1,6 @@
 # info159-annotation-project
+
+## AP1: 
+We are attempting to annotate the policy statements found on the US House of Representatives’ official webpages on a scale of 0 to 5 for how much fear-driven rhetoric is used in each policy statement. In this situation, a document is considered a singular policy statement belonging to a politician. We will find these policy statements by identifying all current members of the House of Representatives as listed at https://www.house.gov/representativesLinks to an external site. and visiting their “Issues” page by visiting https://{last_name}.house.gov/issues (example: https://westerman.house.gov/issuesLinks to an external site.). We have already noted that not all websites contain policy statements, but there are more than 500 members of the House of Representatives, and more than one policy statement per member. Thus, we believe that we will be able to reach the minimum threshold of 500 documents as specified in the posted Guidelines. If we cannot find enough data with relevant fear-driven rhetoric, we will examine political propaganda taxonomies to identify other propaganda techniques and broaden our annotation categories accordingly.
+
+## [AP2]{https://github.com/postybaloney/info159-annotation-project/AP2}
