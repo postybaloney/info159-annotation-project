@@ -1,0 +1,31 @@
+We are interested in exploring propaganda techniques used in political messaging. We
+focus specifically on the U.S. Members of the House’s policy statements as listed on 
+their official websites. We webscraped the ‘Issues’ pages from these sites, which are 
+all public and not under copyright. The resulting documents are text strings describing
+the Representatives’ beliefs on various issues, including immigration, education, and
+health care, among many others. We will do some further data processing to create 
+uniform documents, each consisting of 3 adjacent sentences randomly sampled from the 
+1,330 ‘Issues’ statements we scraped. 
+
+For simplicity, we only aim to label the most commonly used propaganda techniques, which 
+have been established by previous propaganda detection work. Informed by the results of 
+Vorakitphan et al. in 2021, we will look for loaded language, name calling / labeling, 
+appeal to fear / prejudice, and slogans in our documents. For a single document, we will 
+annotate the binary presence or absence of each propaganda type, in addition to a 5th 
+category, “no propaganda.” We will save these annotations for future reference, but for 
+the purpose of this project we will discard any data samples with more than one positive 
+label to avoid multilabel complications.
+
+We will then convert our binary labels into class labels, where our discrete and 
+exclusive classes are {loaded_language, name_calling_labeling, appeal_to_fear_prejudice,
+slogans, no_propaganda}. Finally, we will train a classifier on this labeled data to 
+detect these 4 types of propaganda.
+
+There are existing propaganda detection pipelines for tweets from political candidates 
+(Vorakitphan et al., 2021) and fear vs. anger mongering techniques from politicians 
+(Friedrichs et al., 2022). However, these studies focus on social media platforms, an
+inherently more polarizing space aimed at garnering engagement and interaction. On the 
+other hand, the data source of our work (policy statements found on Representatives’ 
+official websites) is meant to be informative. Thus, the analysis resulting from this 
+body of work will demonstrate how the communication platform impacts politicians’ 
+strategies for appealing to their constituents.
