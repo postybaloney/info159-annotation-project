@@ -1,5 +1,35 @@
 # Datasheet
 
+1. Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)? 
+  
+  There is no confidential information found
+
+2. Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset? 
+
+  It is possible to identify individuals (political figures) by their name as it is included in the dataset. This is going to be removed after this checkpoint to anonymize the data but we kept it currently as part of the "raw" data.
+
+3. Does the dataset contain data that might be considered sensitive in any way (e.g., data that reveals race or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)? 
+
+  The dataset contains information regarding the party of the US House of Representatives member. This information will also be removed in the next iteration but was kept as part of the "raw" data
+
+4. If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?
+Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? 
+
+  The sampling strategy was quasi-random as the heuristic was whether their website contained a specific html tag. This is a randomly distributed trait of the website. The "raw" data is what is currently shown and will be further cleaned as part of AP3.
+
+5. Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? 
+
+  The dataset only has current members of the US House of Representatives as of March 2026. In addition, the data extraction method is highly volatile and may break given any change to a politician's website.
+
+
+6. Are there tasks for which the dataset should not be used?
+
+  The dataset should not be used for political party prediction tasks.
+
+7. Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
+
+  There are no third party restrictions and the robots.txt has been chacked to ensure that the data could be publicly accessed and used.
+
 ## Motivation
 
 The dataset was created for use as part of the Annotation Project for INFO159: Natural Language Processing taught at UC Berkeley Spring 2026. It was created to identify the presence of certain logical fallacies found in the policy statements of the United States House of Representatives (HORs) at the time of February 2026. Parth Desai alongside Beatrice Lowman created the dataset for use in the class. There is no funding attached to the dataset creation.  
