@@ -1,0 +1,71 @@
+---
+title: "Guidelines: AP3"
+author: "Parth Desai"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::pdf_document2:
+    number_sections: false
+    toc: true
+---
+\newpage
+# Task Overview
+
+The goal of this annotation task is to identify propaganda techniques used in policy statements written by members of US House of Representatives on their official websites.
+
+Each document is comprised of 3 consecutive sentences taken from longer policy statements found in the "Issues" page of their websites.
+
+Annotator must decide the propaganda technique that **best** categorizes each document.
+
+## Labels
+
+The labels which annotators can use are: Loaded Language, Name Calling, Appeal to Fear, Slogans, and No Propaganda
+
+If a document is found to have 2 equally strong labels, it will be removed from the dataset.
+
+# General Annotation Rules
+
+1. Read the document in its entirety
+2. Identify any persuasive language
+3. Do **NOT** try to interpret the document, simply identify explicit language
+4. Ignore the political position taken, rather focus on the delivery
+5. Label with the technique that is most closely aligned
+\newpage
+
+# Categories
+
+## Loaded Language
+
+Loaded Language is being defined as words or phrases that are emotionally charged or morally framed. Some signals of it are heroic language, intense adjectives, or words that are used for call to action
+
+Example: "Our brave soldiers valiantly defend our coast"
+
+## Name Calling
+
+Name Calling is being defined as negative or positive generalizations to people, groups, or ideas to shape perception. Some signals of it are character attacks or direct insults.
+
+Example: "Washington elites push their woke mindset"
+
+Example: "The hardworking Irish are always so diligent"
+
+## Appeal to Fear
+
+Appeal to fear is being defined as attempts to persuade by citing dangers, warnings, or threats usually targeted towards a specific group. Some signals of it are discussion of economic collapse, job security, or false dichotomy attempts.
+
+Example: "If we fail to secure funding, the rights of women to abortion will be erased"
+
+## Slogans
+
+Slogans are being defined as memorable catchphrases that are meant to represent or reinforce a specific identity. Some signals of it are that they are rhetorical and short.
+
+Example: "Make America Great Again"
+
+## No Propaganda
+
+No Propaganda is defined as the absence of any of the above types. It will represent factual or conceptual knowledge with little to no rhetorical devices.
+
+\newpage
+# Example Annotation
+
+**Document**: "These brave men and women and their families sacrificed so much to protect us and our freedom. It is our duty to ensure that we take care of them when they return home, many with injuries, visible and invisible. Nellis and Creech Air Force Bases establish a significant active-duty military footprint here in southern Nevada."
+
+**Label**: Loaded Language
