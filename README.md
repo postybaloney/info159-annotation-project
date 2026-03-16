@@ -6,8 +6,14 @@ We are attempting to annotate the policy statements found on the US House of Rep
 
 ## [AP2](https://github.com/postybaloney/info159-annotation-project/AP2)
 
-[Description](https://github.com/postybaloney/info159-annotation-project/AP2/description.md) includes details of the annotation task and data source.
+[Description](https://github.com/postybaloney/info159-annotation-project/AP2/description.txt) includes details of the annotation task and data source.
 
 [Datasheet](https://github.com/postybaloney/info159-annotation-project/AP2/datasheets.txt) includes a breakdown of considerations, as descibed in [Gebru et al. (2021)](https://arxiv.org/pdf/1803.09010) regarding the dataset.
 
 [Sample](https://github.com/postybaloney/info159-annotation-project/AP2/sample.txt) contains a sample document that was found.
+
+## [AP3](https://github.com/postybaloney/info159-annotation-project/AP3)
+
+[Guidelines](https://github.com/postybaloney/info159-annotation-project/AP3/guidelines.pdf)
+
+[Sample Annotations](https://github.com/postybaloney/info159-annotation-project/AP3/ap3_df_labeled.tsv)
