@@ -38,6 +38,7 @@ If a document is found to have 2 equally strong labels, it will be removed from 
 Loaded Language is being defined as words or phrases that are emotionally charged or morally framed. Some signals of it are heroic language, intense adjectives, or words that are used for call to action.
 
 Example: "Our brave soldiers valiantly defend our coast"
+
 Example: "Illegal immigrants are pouring into the U.S."
 
 ## Name Calling
