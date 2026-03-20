@@ -65,3 +65,8 @@ No Propaganda is defined as the absence of any of the above types. It will repre
 **Document**: "These brave men and women and their families sacrificed so much to protect us and our freedom. It is our duty to ensure that we take care of them when they return home, many with injuries, visible and invisible. Nellis and Creech Air Force Bases establish a significant active-duty military footprint here in southern Nevada."
 
 **Label**: Loaded Language
+
+\newpage
+# Revisions through Deliberations
+
+The revisions can be seen through the version history of this R Markdown/PDF file. When we originally set out to annotate, we had a category (Slogans) that we had included. However, after our initial annotations, we collectively agreed that a valid description of it was not applicable to this dataset as the document length did not lead one to think that there was a slogan-like quality to the document. Thus, this label was dropped. Furthermore, the definition of Loaded Language and Appeal to Fear was revised after initial annotations as it was originally found to be too vague and similar. Annotators felt that Appeal to Fear implicitly was Loaded Language. As such, we clarified the reading instructions for annotators and provided examples that the authors felt more aptly described what the label was intended to be used for.
