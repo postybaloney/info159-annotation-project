@@ -1,6 +1,6 @@
 ---
 title: "Guidelines: AP3"
-author: "Parth Desai"
+author: "Parth Desai, Beatrice Lowman, Will Hsu, Jeren Gochyyeva"
 date: "`r Sys.Date()`"
 output: 
   bookdown::pdf_document2:
@@ -18,7 +18,7 @@ Annotator must decide the propaganda technique that **best** categorizes each do
 
 ## Labels
 
-The labels which annotators can use are: Loaded Language, Name Calling, Appeal to Fear, Slogans, and No Propaganda
+The labels which annotators can use are: Loaded Language, Name Calling, Appeal to Fear, and No Propaganda
 
 If a document is found to have 2 equally strong labels, it will be removed from the dataset.
 
